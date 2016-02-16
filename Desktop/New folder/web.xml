@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+  <servlet>
+	<servlet-name>S1</servlet-name>
+	<servlet-class>S1</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S1</servlet-name>
+	<url-pattern>/S1</url-pattern>
+  </servlet-mapping>
+    <servlet>
+	<servlet-name>S2</servlet-name>
+	<servlet-class>S2</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S2</servlet-name>
+	<url-pattern>/S2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	<servlet-name>S3</servlet-name>
+	<servlet-class>S3</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S3</servlet-name>
+	<url-pattern>/S3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	<servlet-name>S4</servlet-name>
+	<servlet-class>S4</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S4</servlet-name>
+	<url-pattern>/S4</url-pattern>
+  </servlet-mapping>
+   <servlet>
+   <init-parameter>
+   <init-name>x</init-name>
+   <init-value>8</init-value>
+   </init-parameter>
+	<servlet-name>S5</servlet-name>
+	<servlet-class>S5</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S5</servlet-name>
+	<url-pattern>/S5</url-pattern>
+  </servlet-mapping>
+   <servlet>
+	<servlet-name>S6</servlet-name>
+	<servlet-class>S6</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S6</servlet-name>
+	<url-pattern>/S6</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	<servlet-name>S7</servlet-name>
+	<servlet-class>S7</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S7</servlet-name>
+	<url-pattern>/S7</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>S8</servlet-name>
+	<servlet-class>S8</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S8</servlet-name>
+	<url-pattern>/S8</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ <servlet-name>prog9</servlet-name>
+	<servlet-class>prog9</servlet-class> 
+ <init-parameter>
+   <init-name>y</init-name>
+   <init-value>8</init-value>
+   </init-parameter>
+   <init-parameter>
+   <init-name>z</init-name>
+   <init-value>9</init-value>
+   </init-parameter>
+ 
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>prog9</servlet-name>
+	<url-pattern>/prog9</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+ <servlet-name>prog10</servlet-name>
+	<servlet-class>prog10</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>prog10</servlet-name>
+	<url-pattern>/prog10</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>S10</servlet-name>
+	<servlet-class>S10</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S10</servlet-name>
+	<url-pattern>/S10</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>S11</servlet-name>
+	<servlet-class>S11</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S11</servlet-name>
+	<url-pattern>/S11</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>S12</servlet-name>
+	<servlet-class>S12</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S12</servlet-name>
+	<url-pattern>/S12</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ <servlet-name>S13</servlet-name>
+	<servlet-class>S13</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S13</servlet-name>
+	<url-pattern>/S13</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ <servlet-name>Welcome</servlet-name>
+	<servlet-class>Welcome</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>Welcome</servlet-name>
+	<url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ <servlet-name>S14</servlet-name>
+	<servlet-class>S14</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S14</servlet-name>
+	<url-pattern>/S14</url-pattern>
+  </servlet-mapping>
+   <servlet>
+ <servlet-name>S15</servlet-name>
+	<servlet-class>S15</servlet-class>
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>S15</servlet-name>
+	<url-pattern>/S15</url-pattern>
+  </servlet-mapping>
+</web-app>
